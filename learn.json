@@ -1,15 +1,28 @@
 {
-  "title": {
-    "en": "Flask REST Hello Template",
-    "es": "Plantilla REST con Flask"
-  },
-  "description": {
-    "en": "A minimal starter template to build REST APIs using Flask. One-click deploy to Heroku and integrated with Gitpod for ease of development.",
-    "es": "Una plantilla inicial mínima para construir APIs REST usando Flask. Despliegue con un clic en Heroku e integrada con Gitpod para facilitar el desarrollo."
-  },
-  "repository": "https://github.com/4GeeksAcademy/flask-rest-hello",
-  "preview": "https://repository-images.githubusercontent.com/176559178/ae453500-78e0-11ea-8037-165e53547738",
-  "projectType": "template",
-  "difficulty": "beginner",
-  "technologies": ["flask", "python", "api"]
+	"gitpod": true,
+        "status": "published",
+	"title" : {
+    "us": "Data Modeling a StarWars Blog",
+    "es": "Modelo de Datos del blog de StarWars"
+},
+	"slug" : "starwars-data-modeling",
+	"duration" : 3,
+	"template_url": "self",
+	"difficulty": "easy",
+	"preview": "https://github.com/breatheco-de/exercise-starwars-data-modeling/blob/master/assets/preview.png?raw=true",
+	"technologies": ["sql", "sqlalchemy", "uml", "data-modeling"],
+	"syntax": "python",
+	"description" : {
+    "us": "Design and implement a Star Wars-themed database model using SQLAlchemy! This project focuses on structuring data for a blog where users can save their favorite characters and planets. You'll create an optimized relational database, define entity relationships, and generate an ER diagram to visualize the data model.",
+    "es": "Usa tus conocimientos recientemente adquiridos para crear un modelo de datos para un blog de Star Wars. En este proyecto, diseñarás la estructura de una base de datos, estableciendo relaciones entre usuarios, personajes y planetas. Aprenderás sobre modelado de datos, diagramas UML y SQLAlchemy, mejorando tus habilidades en bases de datos."
+},
+    "projectType": "project",
+	"autoPlay": "false",
+	"solution": "https://github.com/breatheco-de/exercise-starwars-data-modeling/tree/solution",
+	"talents": [
+		{ "badge": "fully-committed", "points": 5 }
+	],
+	"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=210"
+}
 }
